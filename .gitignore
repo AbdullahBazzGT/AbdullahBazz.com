@@ -1,0 +1,29 @@
+# Ignore Node.js dependencies (if using npm for Sass compilation)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Ignore Sass cache and compiled CSS
+.sass-cache/
+*.css.map
+
+# Ignore compiled CSS files (if you only want to track Sass files)
+*.css
+
+# Ignore environment files (if any)
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts (if using a build process)
+dist/
+out/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.log
